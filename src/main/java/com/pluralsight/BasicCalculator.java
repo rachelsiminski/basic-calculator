@@ -20,6 +20,9 @@ public class BasicCalculator {
         System.out.println("   (D)ivide");
         System.out.println("Please select an option: ");  // M is the only option right now
 
+        /* FIXME: Menu functionality to be added later.
+         * For now, just read the menu choice and go straight
+         * to multiplication */
         // Read menu choice
         String menuSelection = scanner.nextLine();
 
@@ -36,7 +39,7 @@ public class BasicCalculator {
         productTotal = firstNumber * secondNumber;
 
         // Display results
-
+        System.out.println("The product is: " + productTotal);
 
     }
 }
